@@ -5,7 +5,7 @@
       if (title == '' || title == null || title == 'index') {
           title = 'home';
       }
-      var page = 'အမေ့အိမ် | ' + title.toUpperCase();
+      var page = 'company name | ' + title.toUpperCase();
       document.title = page;
   });
 </script>
