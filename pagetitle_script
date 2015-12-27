@@ -1,0 +1,11 @@
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+      var page_title = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+      var title = page_title.split('.')[0];
+      if (title == '' || title == null || title == 'index') {
+          title = 'home';
+      }
+      var page = 'အမေ့အိမ် | ' + title.toUpperCase();
+      document.title = page;
+  });
+</script>
